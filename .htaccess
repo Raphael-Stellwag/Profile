@@ -1,3 +1,4 @@
 RewriteEngine On
 
-RewriteRule ^Profile/(.+) /Profile/src/ [L]
+Redirect /index.html /src/
+
