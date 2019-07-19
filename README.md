@@ -1,3 +1,3 @@
 # Profile
 
-My personal website. You can access it through https://raphitk.github.io/Profile/
+My personal website. You can access it through https://raphael-stellwag.github.io/Profile/
