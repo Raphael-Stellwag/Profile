@@ -42,6 +42,22 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Custom 5-column grid for skills -->
+	<style>
+		.col-md-5ths {
+			position: relative;
+			min-height: 1px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		@media (min-width: 992px) {
+			.col-md-5ths {
+				width: 20%;
+				float: left;
+			}
+		}
+	</style>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
@@ -60,12 +76,10 @@
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(images/me.jpg);"></div>
 							<h1><span>Raphael Stellwag</span></h1>
-							<h3><span>software developer - photovoltaic system engineer</span></h3>
+							<h3><span>backend software developer</span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://www.linkedin.com/in/raphael-s-130824190/" target="_blank"><i class="fa fa-linkedin-square" style="font-size: 40px"></i></a></li>
-									<li><a href="https://www.xing.com/profile/Raphael_Stellwag" target="_blank"><i class="fa fa-xing-square" style="font-size: 40px"></i></a></li>
-									<li><a href="https://www.facebook.com/profile.php?id=100006260718986" target="_blank"><i class="fa fa-facebook-square" style="font-size: 40px"></i></a></li>
 								</ul>
 							</p>
 						</div>
@@ -92,6 +106,18 @@
 							<div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
+									<h3 class="timeline-title">Backend Software Developer</h3>
+									<span class="company">IntelliRoad - 2024 - NOW</span>
+								</div>
+								<div class="timeline-body">
+									<p>I develop backend software, building C# .NET Azure Functions and Python backend services running on a Docker Swarm infrastructure. I also work with AI-assisted software development to speed up and improve the development process.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
 									<h3 class="timeline-title">Working student as photovoltaic system engineer</h3>
 									<span class="company">Stadtwerke Gießen AG - 2022 - 2023</span>
 								</div>
@@ -100,7 +126,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -118,7 +144,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="animate-box timeline-inverted">
+						<li class="animate-box timeline-unverted">
 							<div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -131,11 +157,11 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-unverted animate-box">
-							<div class="timeline-badge"><i class="fa fa-suitcase"></i></img></div>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Aprenticeship as Software Developer</h3>
+									<h3 class="timeline-title">Apprenticeship as Software Developer</h3>
 									<span class="company">DATEV eG - 2015 - 2018</span>
 								</div>
 								<div class="timeline-body">
@@ -148,7 +174,7 @@
 						<li class="timeline-heading text-center animate-box">
 							<div><h3>Education</h3></div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -156,11 +182,11 @@
 									<span class="company">University of Erlangen-Nuremberg - 2023 - NOW</span>
 								</div>
 								<div class="timeline-body">
-									<p>From 2023 till now, I am studying computer science.</p>
+									<p>Since 2023 I have been pursuing my Master's in Computer Science with a focus on distributed systems and Byzantine fault tolerance (BFT). Both my master's project and thesis are in this field &mdash; my thesis, <em>Chained-Themis: Designing a Modular and Scalable BFT Framework through Protocol Chaining</em>, explores building a modular and scalable BFT framework through protocol chaining. During my third semester I completed an exchange semester at the University of Malaya in Malaysia.</p>
 								</div>
 							</div>
 						</li>
-						<li class="timeline-unverted animate-box">
+						<li class="timeline-inverted animate-box">
 							<div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -173,7 +199,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
+						<li class="timeline-unverted animate-box">
 							<div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
@@ -185,11 +211,11 @@
 								</div>
 							</div>
 						</li>
-						<li class="animate-box timeline-unverted">
+						<li class="animate-box timeline-inverted">
 							<div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Aprenticeship as Software Developer</h3>
+									<h3 class="timeline-title">Apprenticeship as Software Developer</h3>
 									<span class="company">B3 Fuerth - 2015 - 2018</span>
 								</div>
 								<div class="timeline-body">
@@ -208,8 +234,8 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Work</h2>
-					<p>Some examples of my formal work.</p>
+					<h2>Fun Projects</h2>
+					<p>Some projects I built for fun.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -272,30 +298,37 @@
 				</div>
 			</div>
 			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="65"><span><strong>HTML5</strong>65%</span></div>
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="75"><span><strong>C#</strong>75%</span></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="65"><span><strong>CSS3</strong>65%</span></div>
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>Python</strong>70%</span></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="50"><span><strong>PHP</strong>50%</span></div>
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="65"><span><strong>Docker</strong>65%</span></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="70"><span><strong>Angular2+</strong>70%</span></div>
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="60"><span><strong>Rust</strong>60%</span></div>
 				</div>
 
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="80"><span><strong>Java</strong>80%</span></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>Spring Boot</strong>90%</span></div>
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="80"><span><strong>Spring Boot</strong>80%</span></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="80"><span><strong>SQL</strong>80%</span></div>
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>SQL</strong>70%</span></div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="60"><span><strong>COBOL</strong>60%</span></div>
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="55"><span><strong>Angular</strong>55%</span></div>
+				</div>
+
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="50"><span><strong>COBOL</strong>50%</span></div>
+				</div>
+				<div class="col-md-5ths col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>Git</strong>70%</span></div>
 				</div>
 			</div>
 		</div>
@@ -307,7 +340,10 @@
 		</div>
 		<div class="choose animate-box">
 			<h2 id="Contact">Contact</h2>
-			<form action="http://voc.bplaced.net/api/my-website/contact-form.php" method="POST">
+			<form action="https://form.taxi/s/1jty26u5" method="POST">
+				<!-- Form.taxi configuration -->
+				<input type="hidden" name="_subject" value="New message from raphael-stellwag.github.io">
+				<input type="hidden" name="_lang" value="en">
 				<div class="row form-group">
 					<div class="col-md-6">
 						<input required type="text" name="fname" id="fname" class="form-control" placeholder="Your firstname">
@@ -321,7 +357,7 @@
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input required type="text" name="email" id="email" class="form-control" placeholder="Your email address">
+						<input required type="email" name="email" id="email" class="form-control" placeholder="Your email address">
 					</div>
 				</div>
 
@@ -333,14 +369,25 @@
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<textarea required name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+						<textarea required name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Your message"></textarea>
 					</div>
 				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<label style="font-weight: normal;">
+							<input required type="checkbox" name="privacy" id="privacy" value="yes">
+							I have read and accept the
+							<a href="https://raphael-stellwag.github.io/Profile/Impressum.html" target="_blank" rel="noopener noreferrer">privacy notice</a>.
+						</label>
+					</div>
+				</div>
+
 				<div class="form-group">
 					<input type="submit" value="Send Message" class="btn btn-primary">
 				</div>
 
-			</form>	
+			</form>
 		</div>
 	</div>
 	
@@ -349,7 +396,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<p>
-						&copy; 2022 Raphael Stellwag. All Rights Reserved. 
+						&copy; 2026 Raphael Stellwag. All Rights Reserved.
 						<br><a href="https://raphael-stellwag.github.io/Profile/Impressum.html" target="_blank">Impress</a>
 						<br>Design from <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a>
 					</p>
